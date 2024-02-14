@@ -3,23 +3,6 @@
 Test Automation for the ecommerce application 
 This project contains automation tests written in Java using Selenium WebDriver and TestNG for an dummy ecommerce website. The purpose of these tests is to improve your test automation skills and demonstrate how to automate different scenarios on the website.
 
-This Project follows Page Object Model .Also planning to integrate with Cucumber BDD Tests and extent Reports and run the tests over nightly builds using a CICD Tool.
-Project Structure The project is structured as follows:
-|-- src
-|   |-- main
-|   |   |-- java
-|   |   |   |-- pageObjects
-|               |-- BaseTestPage.java
-|               |-- LandingPage.java
-|               |-- ...
-|   |   |-- resources
-|   |
-|   |-- test
-|       |-- java
-|       |-- resources
-|
-|-- .gitignore
-|-- pom.xml
 |-- README.md
 •	The src directory contains the main source code and test code.
 •	The src/main/java directory is where you can place any utility classes framework or page object model classes.
